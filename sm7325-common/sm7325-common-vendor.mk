@@ -1178,8 +1178,8 @@ PRODUCT_PACKAGES += \
     ImsSettings \
     CACertService \
     TimeService \
-    HotwordEnrollmentOKGoogleHEXAGON \
-    HotwordEnrollmentXGoogleHEXAGON \
+    HotwordEnrollmentOKGoogleEx3HEXAGON \
+    HotwordEnrollmentXGoogleEx3HEXAGON \
     embmslibrary \
     tcmclient \
     audiosphere \
