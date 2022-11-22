@@ -85,6 +85,12 @@ dex_import {
 }
 
 dex_import {
+	name: "tcmclient",
+	owner: "samsung",
+	jars: ["proprietary/framework/tcmclient.jar"],
+}
+
+dex_import {
 	name: "audiosphere",
 	owner: "samsung",
 	jars: ["proprietary/system_ext/framework/audiosphere.jar"],
@@ -95,6 +101,13 @@ dex_import {
 	name: "com.android.hotwordenrollment.common.util",
 	owner: "samsung",
 	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qti.dpmframework",
+	owner: "samsung",
+	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
 	system_ext_specific: true,
 }
 
@@ -148,6 +161,13 @@ dex_import {
 }
 
 dex_import {
+	name: "dpmapi",
+	owner: "samsung",
+	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
 	name: "qcrilhook",
 	owner: "samsung",
 	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
@@ -165,6 +185,20 @@ dex_import {
 	name: "qti-telephony-utils",
 	owner: "samsung",
 	jars: ["proprietary/system_ext/framework/qti-telephony-utils.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.dpmservice-V1.0-java",
+	owner: "samsung",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.dpmservice-V1.0-java.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "vendor.qti.hardware.dpmservice-V1.1-java",
+	owner: "samsung",
+	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.dpmservice-V1.1-java.jar"],
 	system_ext_specific: true,
 }
 
