@@ -340,6 +340,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/firmware/Data.msc:$(TARGET_COPY_OUT_VENDOR)/firmware/Data.msc \
     vendor/samsung/sm7325-common/proprietary/vendor/firmware/a660_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_gmu.bin \
     vendor/samsung/sm7325-common/proprietary/vendor/firmware/a660_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_sqe.fw \
+    vendor/samsung/sm7325-common/proprietary/vendor/firmware/bt_nvm_loading.xml:$(TARGET_COPY_OUT_VENDOR)/firmware/bt_nvm_loading.xml \
     vendor/samsung/sm7325-common/proprietary/vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin \
     vendor/samsung/sm7325-common/proprietary/vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-bot-dsp1-spk-prot.bin \
     vendor/samsung/sm7325-common/proprietary/vendor/firmware/cs35l40-bot-dsp1-spk-prot.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/cs35l40-bot-dsp1-spk-prot.wmfw \
@@ -389,6 +390,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/firmware/evass.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b19 \
     vendor/samsung/sm7325-common/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
     vendor/samsung/sm7325-common/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
+    vendor/samsung/sm7325-common/proprietary/vendor/firmware/msbtfw11.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/msbtfw11.mbn \
+    vendor/samsung/sm7325-common/proprietary/vendor/firmware/msbtfw11.tlv:$(TARGET_COPY_OUT_VENDOR)/firmware/msbtfw11.tlv \
+    vendor/samsung/sm7325-common/proprietary/vendor/firmware/msnv11.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/msnv11.bin \
+    vendor/samsung/sm7325-common/proprietary/vendor/firmware/multical.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/multical.bin \
+    vendor/samsung/sm7325-common/proprietary/vendor/firmware/ois_mcu_stm32g_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_mcu_stm32g_fw.bin \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
@@ -592,6 +598,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libofflinedump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libofflinedump.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libofflinelog.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopencv.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libos.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
@@ -1022,7 +1030,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libofflinedump.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinedump.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libofflinelog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libofflinelog.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/liboffloadhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboffloadhal.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libopencv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopencv.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libops.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libops.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libos.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdmapper.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpdnotifier.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfconfig.so \
