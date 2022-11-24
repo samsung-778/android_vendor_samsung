@@ -96,6 +96,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/sscrpcd:$(TARGET_COPY_OUT_VENDOR)/bin/sscrpcd \
+    vendor/samsung/sm7325-common/proprietary/vendor/bin/ssr_diag:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_diag \
+    vendor/samsung/sm7325-common/proprietary/vendor/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/samsung/sm7325-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
@@ -131,7 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/init.qti.media.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.media.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/init.qti.qcv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.qcv.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/init.time_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.time_daemon.rc \
-    vendor/samsung/sm7325-common/proprietary/vendor/etc/init/init.vendor.wlan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.wlan.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/init/netmgrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/netmgrd.rc \
@@ -192,7 +193,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base-arm.policy \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext-arm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext-arm.policy \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/mediaextractor_sec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor_sec.policy \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/qspm.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qspm.policy \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/qti-systemd.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/qti-systemd.policy \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/samsung.software.media.c2-base-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/samsung.software.media.c2-base-policy \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/samsung.software.media.c2-ext-policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/samsung.software.media.c2-ext-policy \
+    vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/sxrhalservice.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/sxrhalservice.policy \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/vendor.qti.hardware.dsp.policy \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/sensors/config/kodiak_default_sensors.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_default_sensors.json \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/sensors/config/sns_amd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_amd.json \
@@ -330,10 +337,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/video_system_specs.json:$(TARGET_COPY_OUT_VENDOR)/etc/video_system_specs.json \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
     vendor/samsung/sm7325-common/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
-    vendor/samsung/sm7325-common/proprietary/vendor/etc/wifi/qca6750/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/qca6750/WCNSS_qcom_cfg.ini \
-    vendor/samsung/sm7325-common/proprietary/vendor/etc/wifi/wlan/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wlan/WCNSS_qcom_cfg.ini \
-    vendor/samsung/sm7325-common/proprietary/vendor/etc/wlan_common_rc:$(TARGET_COPY_OUT_VENDOR)/etc/wlan_common_rc \
-    vendor/samsung/sm7325-common/proprietary/vendor/etc/wlan_vendor_rc:$(TARGET_COPY_OUT_VENDOR)/etc/wlan_vendor_rc \
     vendor/samsung/sm7325-common/proprietary/vendor/firmware/Data.msc:$(TARGET_COPY_OUT_VENDOR)/firmware/Data.msc \
     vendor/samsung/sm7325-common/proprietary/vendor/firmware/a660_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_gmu.bin \
     vendor/samsung/sm7325-common/proprietary/vendor/firmware/a660_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_sqe.fw \
@@ -490,6 +493,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatching.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbitmlengine.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib/libbitmlenginev2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbitmlenginev2.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libbthost_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbthost_if.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
@@ -515,6 +520,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdfw_remote_api.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchilog.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libcirrusspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcirrusspkrprot.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib/libcpion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcpion.so \
@@ -897,6 +903,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiofoundation.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioparsers.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatching.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libbitmlengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlengine.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libbitmlenginev2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbitmlenginev2.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libbthost_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbthost_if.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc++_shared.so \
@@ -923,6 +931,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdfw_remote_api.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsp_default_listener.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcdsprpc.so \
+    vendor/samsung/sm7325-common/proprietary/vendor/lib64/libchilog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchilog.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcne.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
     vendor/samsung/sm7325-common/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
