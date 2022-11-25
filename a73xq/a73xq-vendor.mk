@@ -59,7 +59,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a73xq/proprietary/vendor/firmware/tsp_synaptics/s3908_a73xq_sdc_4th.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_synaptics/s3908_a73xq_sdc_4th.bin \
     vendor/samsung/a73xq/proprietary/vendor/firmware/wlan/qca_cld/qca6750/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/qca6750/WCNSS_qcom_cfg.ini \
     vendor/samsung/a73xq/proprietary/vendor/firmware/wlan/qca_cld/qca6750/wlan_mac.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/qca6750/wlan_mac.bin \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/wlan/qca_cld/wlan/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/wlan/WCNSS_qcom_cfg.ini \
     vendor/samsung/a73xq/proprietary/vendor/firmware/wlan/qca_cld/wlan/wlan_mac.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/wlan/wlan_mac.bin \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/wlanmdsp.otaupdate:$(TARGET_COPY_OUT_VENDOR)/firmware/wlanmdsp.otaupdate \
     vendor/samsung/a73xq/proprietary/vendor/firmware/yupik_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b00 \
     vendor/samsung/a73xq/proprietary/vendor/firmware/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b01 \
     vendor/samsung/a73xq/proprietary/vendor/firmware/yupik_ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b02 \
