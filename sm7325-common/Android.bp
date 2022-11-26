@@ -23,16 +23,6 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
-	name: "ImsSettings",
-	owner: "samsung",
-	apk: "proprietary/app/ImsSettings/ImsSettings.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "CACertService",
 	owner: "samsung",
 	apk: "proprietary/vendor/app/CACertService/CACertService.apk",
@@ -79,12 +69,6 @@ android_app_import {
 }
 
 dex_import {
-	name: "embmslibrary",
-	owner: "samsung",
-	jars: ["proprietary/framework/embmslibrary.jar"],
-}
-
-dex_import {
 	name: "tcmclient",
 	owner: "samsung",
 	jars: ["proprietary/framework/tcmclient.jar"],
@@ -112,79 +96,9 @@ dex_import {
 }
 
 dex_import {
-	name: "com.qualcomm.qti.imscmservice-V2.0-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.qualcomm.qti.imscmservice-V2.1-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.qualcomm.qti.imscmservice-V2.2-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.qualcomm.qti.uceservice-V2.0-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.qualcomm.qti.uceservice-V2.1-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.qualcomm.qti.uceservice-V2.2-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.2-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.qualcomm.qti.uceservice-V2.3-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.3-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "dpmapi",
 	owner: "samsung",
 	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "qcrilhook",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/qcrilhook.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "qti-telephony-hidl-wrapper",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/qti-telephony-hidl-wrapper.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "qti-telephony-utils",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/qti-telephony-utils.jar"],
 	system_ext_specific: true,
 }
 
@@ -199,125 +113,6 @@ dex_import {
 	name: "vendor.qti.hardware.dpmservice-V1.1-java",
 	owner: "samsung",
 	jars: ["proprietary/system_ext/framework/vendor.qti.hardware.dpmservice-V1.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.callcapability-V1.0-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.callcapability-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.callinfo-V1.0-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.configservice-V1.0-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.configservice-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.configservice-V1.1-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.configservice-V1.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.connection-V1.0-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.factory-V1.0-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.factory-V1.1-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.factory-V2.0-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.factory-V2.1-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsconfig-V1.0-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsconfig-V1.1-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsconfig-V2.0-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsconfig-V2.1-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcssip-V1.0-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcssip-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcssip-V1.1-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcssip-V1.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsuce-V1.0-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "vendor.qti.ims.rcsuce-V1.1-java",
-	owner: "samsung",
-	jars: ["proprietary/system_ext/framework/vendor.qti.ims.rcsuce-V1.1-java.jar"],
 	system_ext_specific: true,
 }
 
