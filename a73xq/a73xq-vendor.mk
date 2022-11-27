@@ -15,6 +15,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a73xq/proprietary/vendor/etc/audconf/OPEN/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Speaker_cal.acdb \
     vendor/samsung/a73xq/proprietary/vendor/etc/audconf/OPEN/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/workspaceFile.qwsp \
     vendor/samsung/a73xq/proprietary/vendor/etc/init/init.vendor.wlan.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.wlan.rc \
+    vendor/samsung/a73xq/proprietary/vendor/etc/libnfc-mtp-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100.conf \
+    vendor/samsung/a73xq/proprietary/vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-SN100_38_4MHZ.conf \
+    vendor/samsung/a73xq/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/samsung/a73xq/proprietary/vendor/etc/libnfc-qrd-SN100.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100.conf \
+    vendor/samsung/a73xq/proprietary/vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd-SN100_38_4MHZ.conf \
+    vendor/samsung/a73xq/proprietary/vendor/etc/nfc/libnfc-nxp_RF.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-nxp_RF.conf \
     vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_A73_S6E3FC3_AMB667BV01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_A73_S6E3FC3_AMB667BV01.xml \
     vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_60_Hz_fhd_plus_video_mode_panel_without_DSC.xml \
     vendor/samsung/a73xq/proprietary/vendor/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_nt36672e_fhd_plus_120Hz_Video_panel.xml \
@@ -29,9 +35,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a73xq/proprietary/vendor/etc/sensors/config/kodiak_ak991x_3.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_ak991x_3.json \
     vendor/samsung/a73xq/proprietary/vendor/etc/sensors/config/kodiak_icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_icm4x6xx_0.json \
     vendor/samsung/a73xq/proprietary/vendor/etc/sensors/config/kodiak_stk3a0x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/kodiak_stk3a0x_0.json \
-    vendor/samsung/a73xq/proprietary/vendor/etc/wifi/icm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/icm.conf \
-    vendor/samsung/a73xq/proprietary/vendor/etc/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info \
+    vendor/samsung/a73xq/proprietary/vendor/etc/wifi/qca6750/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/qca6750/WCNSS_qcom_cfg.ini \
     vendor/samsung/a73xq/proprietary/vendor/etc/wifi/vendor_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_cmd.xml \
+    vendor/samsung/a73xq/proprietary/vendor/etc/wifi/wlan/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wlan/WCNSS_qcom_cfg.ini \
     vendor/samsung/a73xq/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/samsung/a73xq/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
     vendor/samsung/a73xq/proprietary/vendor/firmware/a660_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a660_gmu.bin \
@@ -43,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a73xq/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/samsung/a73xq/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/samsung/a73xq/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/nfc/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/libpn557_fw.so \
     vendor/samsung/a73xq/proprietary/vendor/firmware/qca6750/bdwlan.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf \
     vendor/samsung/a73xq/proprietary/vendor/firmware/qca6750/bdwlan.elf1:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf1 \
     vendor/samsung/a73xq/proprietary/vendor/firmware/qca6750/bdwlan.elf10:$(TARGET_COPY_OUT_VENDOR)/firmware/qca6750/bdwlan.elf10 \
@@ -53,6 +60,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a73xq/proprietary/vendor/firmware/tsp_synaptics/s3908_a73xq_csot.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_synaptics/s3908_a73xq_csot.bin \
     vendor/samsung/a73xq/proprietary/vendor/firmware/tsp_synaptics/s3908_a73xq_sdc.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_synaptics/s3908_a73xq_sdc.bin \
     vendor/samsung/a73xq/proprietary/vendor/firmware/tsp_synaptics/s3908_a73xq_sdc_4th.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tsp_synaptics/s3908_a73xq_sdc_4th.bin \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/wlan/qca_cld/qca6750/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/qca6750/WCNSS_qcom_cfg.ini \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/wlan/qca_cld/qca6750/wlan_mac.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/qca6750/wlan_mac.bin \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/wlan/qca_cld/wlan/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/wlan/WCNSS_qcom_cfg.ini \
+    vendor/samsung/a73xq/proprietary/vendor/firmware/wlan/qca_cld/wlan/wlan_mac.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/qca_cld/wlan/wlan_mac.bin \
     vendor/samsung/a73xq/proprietary/vendor/firmware/wlanmdsp.otaupdate:$(TARGET_COPY_OUT_VENDOR)/firmware/wlanmdsp.otaupdate \
     vendor/samsung/a73xq/proprietary/vendor/firmware/yupik_ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b00 \
     vendor/samsung/a73xq/proprietary/vendor/firmware/yupik_ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b01 \
